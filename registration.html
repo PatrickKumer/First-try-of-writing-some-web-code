@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Streaming</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+    </style>
+  </head>
+  <body>
+      <div style="background-color: whitesmoke; border:1px solid black;">
+      <h1>Welcome</h1>
+      <h3>Please fill the next form</h3>
+      </div>
+      <br/>
+      <div style="background-color: whitesmoke; border:1px solid black;">
+      <img width="800" height="120" src="https://www8.gsb.columbia.edu/articles/sites/articles/files/article_detailedimage/music_streaming_logos_back.png">
+      </div>
+      <br/>
+      <br/>
+      <form onsubmit="alert('Registration sent!')">
+        <div style="background-color: white; border:1px solid black;">
+          <div>
+              <input type="text" placeholder="Enter your name"/>
+          </div>
+          <div>
+              <input type="text" placeholder="Enter your surname"/>
+          </div>
+          <div>
+              <input type="email" placeholder="Enter your email adress"/>
+          </div>
+          <div>
+              <input type="password" placeholder="Enter your password"/>
+          </div>
+          <div>
+              <input type="date" placeholder="Enter your birthday"/>
+          </div>
+          <div>
+              <input type="number" placeholder="Enter mobile number"/>
+          </div>
+          <p>Which music do you listen to?</p>
+          <div>
+            <input id="rock" type="checkbox" />
+            <label for="rock">Rock</label>
+          </div>
+          <div>
+            <input id="pop" type="checkbox" />
+            <label for="pop">Pop</label>
+          </div>
+          <div>
+            <input id="randb" type="checkbox" />
+            <label for="randb">R&B</label>
+          </div>
+          <div>
+            <input id="country" type="checkbox" />
+            <label for="country">Country</label>
+          </div>
+          <div>
+            <input id="electronic" type="checkbox" />
+            <label for="electronic">Electronic</label>
+          </div>
+          <p>I agree to the Terms of Service</p>
+          <div>
+            <input type="radio" id="yes" name="tos" value="Yes" />
+            <label for="yes">Yes</label>
+          </div>
+          <div>
+            <input type="radio" id="no" name="tos" value="No" checked />
+            <label for="no">No</label>
+          </div>
+          <button type="submit">Send registration</button>
+          </div>
+        </form>
+  </body>
